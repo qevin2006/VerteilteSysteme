@@ -23,7 +23,7 @@ public class Client {
 		OrderServiceService service_ordner = new OrderServiceService();
 		OrderService order = service_ordner.getOrderServicePort();
 
-		Order myOrder = order.getOrder(5001);
+		Order myOrder = order.getOrder(5002);
 		System.out.println("Order Number: " + myOrder.getOrderNo());
 		System.out.println("Order Date: " + myOrder.getOrderDate());
 
